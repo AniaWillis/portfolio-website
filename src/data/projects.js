@@ -1,17 +1,17 @@
-import DiceRollImage from "../assets/projects/dice-roll-screen.png";
+import DictionaryImage from "../assets/projects/dictionary.png";
 import CalculatorImage from "../assets/projects/calculator-screen.png";
 import TimeLogImage from "../assets/projects/my-time-use.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Dice Roll Game",
+    title: "Dictionary App",
     description:
-      "An interactive two-player dice game. Players take turns rolling two dice until one reaches the selected goal score.",
-    image: DiceRollImage,
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://ania-w-dice-roll-game.netlify.app",
-    githubUrl: "https://github.com/AniaWillis/dice-game",
+      "An interactive dictionary application. It lets you look up English words, hear pronunciations, and explore definitions, examples, synonyms, and antonyms.",
+    image: DictionaryImage,
+    tags: ["HTML", "CSS", "JavaScript", "REST API"],
+    demoUrl: "https://ania-w-dictionary.netlify.app",
+    githubUrl: "https://github.com/AniaWillis/dictionary",
   },
   {
     id: 2,

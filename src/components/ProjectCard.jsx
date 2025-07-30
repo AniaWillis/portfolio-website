@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover"
         />
       </div>
       <div className="p-6 grid grid-cols-1 grid-rows-[8rem_3rem_1fr] md:grid-rows-[9rem_3rem_1fr] lg:grid-rows-[10rem_3rem_1fr]">
