@@ -7,7 +7,7 @@ export const projects = [
     id: 1,
     title: "Dictionary App",
     description:
-      "An interactive dictionary application. It lets you look up English words, hear pronunciations, and explore definitions, examples, synonyms, and antonyms.",
+      "An interactive dictionary that lets you look up English words and displays their pronunciations, definitions, examples, synonyms, and antonyms.",
     image: DictionaryImage,
     tags: ["HTML", "CSS", "JavaScript", "REST API"],
     demoUrl: "https://ania-w-dictionary.netlify.app",

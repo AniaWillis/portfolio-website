@@ -3,7 +3,7 @@ import { cn } from "../lib/utils";
 
 function ContactForm() {
   return (
-    <div className="bg-card-2 p-8 rounded-lg shadow-xs border border-border">
+    <div className="bg-card-2 p-6 sm:p-8 rounded-lg shadow-xs border border-border w-screen sm:w-auto justify-self-center sm:justify-self-auto">
       <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
       <form action="https://submit-form.com/TZ0DPIIy5" className="space-y-6">
         <input

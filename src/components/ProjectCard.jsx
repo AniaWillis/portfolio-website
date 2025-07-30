@@ -10,7 +10,7 @@ function ProjectCard({ project }) {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-6 grid grid-cols-1 grid-rows-[8rem_3rem_1fr] md:grid-rows-[9rem_3rem_1fr] lg:grid-rows-[10rem_3rem_1fr]">
+      <div className="p-6 grid grid-cols-1 grid-rows-[10rem_3rem_1fr] md:grid-rows-[9rem_3rem_1fr] lg:grid-rows-[10rem_3rem_1fr]">
         <div className="flex flex-col grow">
           <h3 className="text-xl font-semibold mb-2 text-center">
             {project.title}
