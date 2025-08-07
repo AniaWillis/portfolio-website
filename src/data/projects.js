@@ -1,5 +1,5 @@
 import DictionaryImage from "../assets/projects/dictionary.png";
-import CalculatorImage from "../assets/projects/calculator-screen.png";
+import RecipeImage from "../assets/projects/global-pantry.png";
 import TimeLogImage from "../assets/projects/my-time-use.png";
 
 export const projects = [
@@ -15,13 +15,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Calculator App",
+    title: "The Global Pantry",
     description:
-      "A simple calculator application. It provides basic arithmetic operations with a user-friendly interface.",
-    image: CalculatorImage,
-    tags: ["HTML", "Tailwind CSS", "JavaScript", "React", "Vite"],
-    demoUrl: "https://ania-w-react-calculator-app.netlify.app",
-    githubUrl: "https://github.com/AniaWillis/calculator-app",
+      "A responsive and interactive single-page recipe search application that lets you search recipes by main ingredient or browse by category.",
+    image: RecipeImage,
+    tags: ["HTML", "CSS", "JavaScript", "REST API"],
+    demoUrl: "https://ania-w-global-pantry.netlify.app",
+    githubUrl: "https://github.com/AniaWillis/global-pantry",
   },
   {
     id: 3,

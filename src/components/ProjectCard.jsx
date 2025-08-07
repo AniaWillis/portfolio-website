@@ -3,12 +3,8 @@ import { ExternalLink, Github } from "lucide-react";
 function ProjectCard({ project }) {
   return (
     <div className="group bg-linear-to-r from-card to-card-2 border border-border rounded-lg overflow-hidden shadow-xs card-hover">
-      <div className="h-48 overflow-hidden">
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-full object-cover"
-        />
+      <div className="h-48 overflow-hidden object-cover object-top">
+        <img src={project.image} alt={project.title} className=" w-full " />
       </div>
       <div className="p-6 grid grid-cols-1 grid-rows-[10rem_3rem_1fr] md:grid-rows-[9rem_3rem_1fr] lg:grid-rows-[10rem_3rem_1fr]">
         <div className="flex flex-col grow">
